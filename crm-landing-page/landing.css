@@ -1,0 +1,40 @@
+nav {
+    color: black;
+    /* background-color: aqua; */
+}
+
+li {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.basic {
+    height: 500px;
+    background-color: brown;
+}
+
+.explore {
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.explore-tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.explore-col {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 115px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.hover-tab:hover {
+    cursor: pointer;
+}
