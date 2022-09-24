@@ -1,0 +1,222 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+    color: lightblue
+}
+
+#nav-home {
+    padding: 25px 50px 25px 50px
+}
+
+#nav-home a {
+    text-decoration: none;
+}
+
+#nav-features {
+    padding:25px 50px 25px 50px
+}
+
+#nav-pricing {
+    padding:25px 50px 25px 50px
+}
+
+#nav-how-it-works {
+    padding:25px 50px 25px 50px
+}
+
+#nav-support {
+    padding:25px 50px 25px 50px
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+#nav-sign-in {
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+#nav-try-it-free {
+    padding-top: 25px
+}
+
+.btn {
+    border-radius: .75rem;
+    width:100px
+}
+
+.main-header-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "focus-on-business header-side-img"
+      "other-buttons header-side-img";
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 50px;
+
+}
+  
+.header-side-img { 
+    grid-area: header-side-img; 
+
+}
+
+.header-side-img img{ 
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+  
+.focus-on-business { 
+    grid-area: focus-on-business; 
+
+}
+
+.focus-on-business b { 
+    display: block;
+    max-width: 260px;
+}
+
+.focus-on-business p { 
+    width: 500px;
+    color: #9a9a9a;
+    font-weight: bolder;
+}
+  
+.other-buttons { 
+    grid-area: other-buttons;
+}
+
+.other-buttons p { 
+    margin-top:10px;
+    color: #7e7d7d
+}
+
+
+.fa-period {
+    color:blue;
+    vertical-align: top; /*Not sure why, but this code continues to unapply itself.*/
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.first-line hr {
+    margin: auto 300px
+}
+
+.how-it-works-container {  display: grid;
+    grid-template-rows: 0.155fr 0.30fr 1fr 0.30fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    margin-top: 25px;
+    text-align: center;
+}
+  
+.how-it-works-header { 
+    grid-area: 1 / 1 / 2 / 2; 
+    height: 25px
+}
+
+.how-it-works-header h2{ 
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.how-it-works-info { 
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.how-it-works-info p { 
+    margin: auto 400px
+}
+  
+.collect-info-container { 
+    grid-area: 3 / 1 / 4 / 2;
+    display: flex; 
+    border: 1px black solid;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    height: 400px
+}
+
+#collect-info-img img {
+    height: 400px;
+    padding: 25px
+}
+
+#collect-info-text {
+    background-color: #0850f8;
+    color: white;
+}
+
+#collect-info-text h2 {
+    margin: 35px
+}
+
+#collect-info-text p {
+    margin: 90px 100px
+}
+
+.more-info-text { 
+    grid-area: 4 / 1 / 5 / 2; 
+    margin-top: 50px;
+    margin: auto 400px;
+    margin-bottom: 45px
+}
+  
+.get-paid-sooner-container { 
+    grid-area: 5 / 1 / 6 / 2; 
+    display: flex;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+    flex-direction: row;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+#get-paid-img img {
+    padding: 25px;
+    height: 400px;
+    width: 375px
+}
+
+#get-paid-text {
+    background-color: #0850f8;
+    color: white;
+}
+
+#get-paid-text h2 {
+    margin: 35px;
+}
+
+#get-paid-text p {
+    margin: 90px 100px
+}
+
