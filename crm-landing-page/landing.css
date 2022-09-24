@@ -15,7 +15,7 @@ li {
 
 .explore {
     text-align: center;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .explore-tabs {
@@ -37,4 +37,19 @@ li {
 
 .hover-tab:hover {
     cursor: pointer;
+}
+
+.credit-card {
+    display: flex;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-top: 100px;
+    /* border: 5px solid black; */
+}
+
+.credit-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
