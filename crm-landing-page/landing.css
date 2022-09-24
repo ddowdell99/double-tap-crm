@@ -15,7 +15,7 @@ li {
 
 .explore {
     text-align: center;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .explore-tabs {
@@ -52,4 +52,13 @@ li {
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+
+.right-border {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.extra-small {
+    font-size: small;
 }
