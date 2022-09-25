@@ -1,6 +1,10 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 nav {
     color: black;
-    /* background-color: aqua; */
 }
 
 li {
@@ -15,7 +19,6 @@ li {
 
 .explore {
     text-align: center;
-    /* background-color: aqua; */
 }
 
 .explore-tabs {
@@ -42,9 +45,7 @@ li {
 .credit-card {
     display: flex;
     height: 500px;
-    /* background-color: aqua; */
     margin-top: 100px;
-    /* border: 5px solid black; */
 }
 
 .credit-image {
@@ -57,8 +58,26 @@ li {
 .right-border {
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
+    background-color: blue;
+    color: white;
 }
 
 .extra-small {
     font-size: small;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: #e5efff;
+}
+
+.footers {
+    height: 300px;
+    margin-top: 35px;
+    background-color: blue;
+    color: white;
 }
