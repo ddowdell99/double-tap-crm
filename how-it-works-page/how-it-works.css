@@ -52,6 +52,14 @@
     padding-top: 25px;
 }
 
+#nav-sign-in a {
+    color:#0850f8
+}
+
+#nav-sign-in a:hover {
+    color: white;
+}
+
 #nav-try-it-free {
     padding-top: 25px
 }
