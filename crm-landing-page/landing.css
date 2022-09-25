@@ -7,6 +7,15 @@ nav {
   color: black;
 }
 
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color:white;
+}
+
 li {
   padding-left: 25px;
   padding-right: 25px;
@@ -89,9 +98,16 @@ li {
   border: none;
 }
 
+.footer-button a {
+  color: white;
+  text-decoration: none;
+}
+
 .chat-with-us {
   transition: 0.3s;
   background-color: white;
   color: blue;
   border: none;
 }
+
+

@@ -11,11 +11,10 @@
 
 .nav-items a {
     text-decoration: none;
-    color: black
+    color: rgba(0, 0, 0, 0.568)
 }
 
 .nav-items a:hover {
-    text-decoration: underline;
     color: lightblue
 }
 
@@ -116,6 +115,20 @@
 .other-buttons p { 
     margin-top:10px;
     color: #7e7d7d
+}
+
+.other-buttons p a {
+    color: #7e7d7d;
+    text-decoration: none;
+}
+
+.other-buttons p a:hover {
+    text-decoration: underline;
+    color:#0850f8;
+}
+
+.other-buttons p span {
+    font-weight: bolder;
 }
 
 
