@@ -238,10 +238,14 @@
     place-items: center;
 }
 
+#get-paid-img {
+    min-width: 375px;
+}
+
 #get-paid-img img {
     padding: 25px;
     height: 400px;
-    width: 375px;
+    min-width: 375px;
 }
 
 #get-paid-text {
@@ -272,6 +276,7 @@
       "get-started-button chat-with-us-button"
       "free-manage-cancel free-manage-cancel";
     background-color: #0850f8;
+    text-align: center;
 }
   
 .footer-header { 
@@ -283,6 +288,7 @@
     font-weight: bolder;
     font-size: 30px;
     padding-top: 45px;
+
 }
 
 .get-started-button { 
