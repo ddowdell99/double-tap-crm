@@ -127,12 +127,16 @@
     padding-right: 10px
 }
 
+.other-buttons i {
+    vertical-align: top;
+}
+
 .first-line hr {
     margin: auto 300px
 }
 
 .how-it-works-container {  display: grid;
-    grid-template-rows: 0.155fr 0.30fr 1fr 0.30fr 1fr;
+    grid-template-rows: 0.155fr 0.30fr .85fr 0.30fr 1fr;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -166,17 +170,21 @@
     margin-left: 150px;
     margin-right: 150px;
     overflow: hidden;
-    height: 400px
+    place-items: center;
 }
 
 #collect-info-img img {
-    height: 400px;
-    padding: 25px
+    padding: 25px;
+    height: 375px;
+    width: 400px;
+
 }
 
 #collect-info-text {
     background-color: #0850f8;
     color: white;
+    width: 100%;
+    height: 100%;
 }
 
 #collect-info-text h2 {
@@ -184,14 +192,13 @@
 }
 
 #collect-info-text p {
-    margin: 90px 100px
+    margin: 150px 100px;
 }
 
 .more-info-text { 
     grid-area: 4 / 1 / 5 / 2; 
     margin-top: 50px;
-    margin: auto 30%;
-    margin-bottom: 45px
+    margin: 100px 30%;
 }
   
 .get-paid-sooner-container { 
@@ -203,19 +210,22 @@
     margin-right: 150px;
     overflow: hidden;
     flex-direction: row;
-    height: 400px;
-    margin-bottom: 50px;
+    min-height: 400px;
+    margin-bottom: 150px;
+    place-items: center;
 }
 
 #get-paid-img img {
     padding: 25px;
     height: 400px;
-    width: 375px
+    width: 375px;
 }
 
 #get-paid-text {
     background-color: #0850f8;
     color: white;
+    width: 100%;
+    height: 100%;
 }
 
 #get-paid-text h2 {
@@ -226,3 +236,59 @@
     margin: 90px 100px
 }
 
+.footer-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "footer-header footer-header"
+      "get-started-button chat-with-us-button"
+      "free-manage-cancel free-manage-cancel";
+    background-color: #0850f8;
+}
+  
+.footer-header { 
+    grid-area: footer-header; 
+    color: white;
+}
+
+.footer-header h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 45px;
+}
+
+.get-started-button { 
+    grid-area: get-started-button; 
+}
+
+.get-started-button button {
+    float: right;
+    width: 160px;
+    background-color: #7fd126 !important;
+    border-color: #0850f8 !important;
+    font-weight: bolder;
+}
+  
+.chat-with-us-button { 
+    grid-area: chat-with-us-button; 
+}
+
+.chat-with-us-button button {
+    float: left;
+    margin-left: 15px;
+    color: #0850f8 !important;
+}
+  
+.free-manage-cancel { 
+    grid-area: free-manage-cancel; 
+}
+
+.free-manage-cancel i{ 
+    color:white;
+    vertical-align: top; 
+}
