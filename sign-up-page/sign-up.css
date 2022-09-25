@@ -1,0 +1,128 @@
+.flexbox-left-side {
+    margin-left: 100px;
+    display: flex;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+#sign-up {
+    float: left;
+
+
+}
+
+#ip1 {
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+    height: 60px;
+    padding-left: 40px;
+    background-image: url(images/Page-1.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-size: 12px;
+}
+
+#ip2 {
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+    height: 60px;
+    padding-left: 40px;
+    background-image: url(images/Page-3.png);
+    background-repeat: no-repeat;
+    background-position: 15px 20px;
+    background-size: 20px;
+}
+
+#ip3 {
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+    height: 60px;
+    padding-left: 40px;
+    background-image: url(images/Page-2.png);
+    background-repeat: no-repeat;
+    background-position: 18px 18px;
+    background-size: 15px;
+}
+
+#facebook {
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#tweet {
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#google {
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#linked {
+    object-fit: scale-down;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 1px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: 40px;
+    
+}
+
+.flexbox-right-side {
+    display: flex;
+    width: 50%;
+    margin-right: 300px;
+    position: absolute;
+    right: 0;
+}
+
+#desk-image {
+    flex: float;
+    padding-top: 100px;
+    height: 800px;
+    width: 800px;
+    padding-bottom: 75px;
+
+}

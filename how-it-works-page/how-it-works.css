@@ -36,7 +36,8 @@
 }
 
 #nav-how-it-works {
-    padding:25px 50px 25px 50px
+    padding:25px 50px 25px 50px;
+    width: 200px;
 }
 
 #nav-support {
@@ -59,6 +60,11 @@
 .btn {
     border-radius: .75rem;
     width:100px
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
 }
 
 .main-header-container {  
@@ -149,7 +155,7 @@
 }
 
 .how-it-works-info p { 
-    margin: auto 400px
+    margin: auto 30%;
 }
   
 .collect-info-container { 
@@ -184,7 +190,7 @@
 .more-info-text { 
     grid-area: 4 / 1 / 5 / 2; 
     margin-top: 50px;
-    margin: auto 400px;
+    margin: auto 30%;
     margin-bottom: 45px
 }
   
